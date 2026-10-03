@@ -1,0 +1,5 @@
+{
+  "input": "data/processed/toolbench_sft.jsonl",
+  "accepted_samples": 9938,
+  "max_candidates": 32
+}

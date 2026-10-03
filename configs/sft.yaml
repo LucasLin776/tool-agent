@@ -1,0 +1,4 @@
+epochs: 2
+batch_size: 4
+learning_rate: 0.0002
+save_every: 50

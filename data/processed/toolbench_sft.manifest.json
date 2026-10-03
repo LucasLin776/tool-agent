@@ -1,0 +1,8 @@
+{
+  "dataset": "tuandunghcmut/toolbench-v1",
+  "revision": "36de9b189753ad5de276181974f97df15e8c3202",
+  "split": "train",
+  "requested_samples": 10000,
+  "accepted_samples": 10000,
+  "license": "apache-2.0"
+}

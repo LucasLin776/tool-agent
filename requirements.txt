@@ -1,0 +1,10 @@
+numpy>=1.26
+pytrio>=0.2.7
+# Required when HTTP(S)_PROXY/ALL_PROXY uses a SOCKS URL.
+httpx[socks]>=0.28.1
+datasets>=2.20
+tqdm>=4.66
+rank-bm25>=0.2.2
+# Optional local API:
+# fastapi>=0.110
+# uvicorn>=0.30

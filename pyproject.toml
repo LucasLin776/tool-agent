@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tool-agent-post-training"
+version = "0.1.0"
+description = "API recommendation post-training pipeline for PyTrio"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26",
+  "pytrio>=0.2.7",
+  "httpx[socks]>=0.28.1",
+  "datasets>=2.20",
+  "tqdm>=4.66",
+  "rank-bm25>=0.2.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+service = ["fastapi>=0.110", "uvicorn>=0.30"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

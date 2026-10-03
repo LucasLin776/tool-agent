@@ -1,0 +1,5 @@
+base_model: Qwen/Qwen3.5-4B
+lora_rank: 32
+seed: 42
+max_length: 2048
+data_path: data/processed/api_recommendation_sft.jsonl
